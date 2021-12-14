@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.prokuli">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Prokuli">
+        <activity
+            android:name=".Harga.Harga120Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Harga.Harga70Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Harga.Harga60Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Harga.Harga54Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Harga.Harga45Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Pembayaran.Pembayaran_120Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Pembayaran.Pembayaran_70Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Pembayaran.Pembayaran_60Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Pembayaran.Pembayaran_54Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Pembayaran.Tipe_54Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Pembayaran.Pembayaran_45Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Tipe.Tipe_120Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Tipe.Tipe_70Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Tipe.Tipe_60Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Tipe.Tipe_54Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Tipe.Tipe_45Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Harga.Harga36Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Pembayaran.Pembayaran_36Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Tipe.Tipe_36Activity"
+            android:exported="false" />
+        <activity
+            android:name=".LastActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Pembayaran.Pembayaran_21Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Harga.Harga21Activity"
+            android:exported="false" />
+        <activity
+            android:name=".info.InfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tipe.Tipe_21Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TransaksiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".model.TransaksiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotifikasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Splashscreen"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01BCF1"
+    tools:context=".Pembayaran.Pembayaran_60Activity">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvform1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/garis"
+                    android:backgroundTint="@color/white"/>
+
+
+                <TextView
+                    android:id="@+id/tvback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_back1"
+                    android:gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:padding="13dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/regular" />
+
+
+                <TextView
+                    android:id="@+id/tvinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:padding="13dp"
+                    android:text="Pembayaran"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/tvform2"
+                    android:layout_width="match_parent"
+                    android:layout_height="800dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/garis"
+                    android:backgroundTint="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvtotal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginRight="20dp"
+                    android:padding="10dp"
+                    android:text="@string/total_pembayaran"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/tvalamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvtotal"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:text="*Alamat"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+                <EditText
+                    android:id="@+id/etalamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/tvalamat"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/garis"
+                    android:hint="Isi alamat anda disini"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#9A9393"
+                    android:textSize="16dp" />
+
+
+
+                <!--    bank bni-->
+                <TextView
+                    android:id="@+id/tvbayar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bayar Pakai apa ?"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/black"
+                    android:layout_below="@id/etalamat"
+                    android:textSize="12dp"/>
+
+
+                <TextView
+                    android:id="@+id/tvbni"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/tvbayar"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/garis" />
+
+                <ImageView
+                    android:id="@+id/imlogobni"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/tvbayar"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="22dp"
+                    android:src="@drawable/logo_bni" />
+
+                <TextView
+                    android:id="@+id/tvbni1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvbayar"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="33dp"
+                    android:layout_toRightOf="@+id/imlogobni"
+                    android:text="Bank Nasional Indonesia"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="italic" />
+
+                <!--    bank BSI-->
+
+                <TextView
+                    android:id="@+id/tvbsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/tvbni"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/garis" />
+
+                <ImageView
+                    android:id="@+id/imlogobsi"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_below="@+id/imlogobni"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/logo_bsi" />
+
+                <TextView
+                    android:id="@+id/tvbsi1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvbni"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@+id/imlogobsi"
+                    android:text="Bank Syariah Indonesia"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="italic" />
+
+                <!--bank Bri-->
+                <TextView
+                    android:id="@+id/tvbri"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/tvbsi"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/garis" />
+
+                <ImageView
+                    android:id="@+id/imlogobri"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_below="@+id/imlogobsi"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="22dp"
+                    android:src="@drawable/logo_bri" />
+
+                <TextView
+                    android:id="@+id/tvbri1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvbsi"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_toRightOf="@+id/imlogobri"
+                    android:text="Bank Republik Indonesia"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="italic" />
+
+                <!--    mandiri-->
+
+                <TextView
+                    android:id="@+id/tvmandiri"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/tvbri"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/garis" />
+
+                <ImageView
+                    android:id="@+id/imlogomandiri"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_below="@+id/imlogobri"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="22dp"
+                    android:src="@drawable/logo_mandiri" />
+
+                <TextView
+                    android:id="@+id/tvmandiri1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvbri"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_toRightOf="@+id/imlogomandiri"
+                    android:text="Bank Mandiri"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="italic" />
+
+                <!--    bca-->
+
+                <TextView
+                    android:id="@+id/tvbca"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/tvmandiri"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/garis" />
+
+                <ImageView
+                    android:id="@+id/imlogobca"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_below="@+id/imlogomandiri"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="22dp"
+                    android:src="@drawable/logo_bca" />
+
+                <TextView
+                    android:id="@+id/tvbca1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvmandiri"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_toRightOf="@+id/imlogobca"
+                    android:text="Bank Central Asia"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="italic" />
+
+
+
+
+
+                <RadioGroup
+                    android:id="@+id/rgbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvbayar"
+                    android:layout_toRightOf="@+id/tvbni1">
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="15dp"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="45dp"
+                            android:layout_marginLeft="15dp"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="45dp"
+                            android:layout_marginLeft="15dp"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="45dp"
+                            android:layout_marginLeft="15dp"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="45dp"
+                            android:layout_marginLeft="15dp"/>
+
+                </RadioGroup>
+
+
+
+
+                <Button
+                    android:id="@+id/btnlanjut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="50dp"
+                    android:background="@drawable/btn_bg"
+                    android:drawableEnd="@drawable/ic_money"
+                    android:layout_below="@+id/tvbca"
+                    android:padding="5dp"
+                    android:paddingLeft="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="Lanjutkan Pembayaran" />
+
+        </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01BCF1"
+    tools:context=".Harga.Harga54Activity">
+
+        <TextView
+            android:id="@+id/tvbg"
+            android:layout_marginTop="210dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/garis"
+            android:backgroundTint="#DDE2E8"/>
+
+        <TextView
+            android:id="@+id/tvback"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/ic_kembali"/>
+
+
+    <TextView
+        android:id="@+id/tvharga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvback"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="  Harga \n Tipe 54"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvform"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/tvharga"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/garis"
+            android:backgroundTint="@color/white"/>
+
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/tvharga"
+            android:src="@drawable/tipe54"/>
+
+        <TextView
+            android:id="@+id/tvrumah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rumah"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="90dp"
+            android:layout_below="@+id/tvharga"
+            android:layout_toRightOf="@+id/iv1"
+            android:textColor="@color/black"
+            android:fontFamily="@font/brawler"/>
+
+
+
+        <TextView
+            android:id="@+id/tvform2"
+            android:layout_below="@+id/tvform"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/garis"
+            android:backgroundTint="@color/white"/>
+
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/tvform"
+            android:src="@drawable/tipe54" />
+
+        <TextView
+            android:id="@+id/tvrumah1"
+            android:layout_toRightOf="@+id/iv2"
+            android:layout_below="@+id/tvform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rumah  + Tanah"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/brawler"/>
+
+
+
+        <RadioGroup
+            android:id="@+id/r_harga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="280dp"
+            android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/rbrumah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text="600 000 000 JT"
+                android:fontFamily="@font/regular"
+                android:paddingLeft="15dp"
+                android:textColor="@color/black"/>
+
+            <RadioButton
+                android:id="@+id/rbtanah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text="800 000 000 JT"
+                android:fontFamily="@font/regular"
+                android:textColor="@color/black"
+                android:layout_marginTop="80dp"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnlanjut"
+            android:layout_below="@+id/tvform2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/btn_bg"
+            android:drawableEnd="@drawable/ic_money"
+            android:padding="5dp"
+            android:paddingLeft="20dp"
+            android:paddingEnd="20dp"
+            android:text="Lanjutkan Pembayaran" />
+
+    </RelativeLayout>

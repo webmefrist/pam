@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDE2E8"
+    android:orientation="vertical"
+    tools:context=".Tipe.Tipe_36Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="15dp">
+
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/ic_back1"/>
+
+        <Button
+            android:id="@+id/btninfo"
+            android:layout_marginLeft="268dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/ic_info"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvjudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Design"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="23dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/regular"/>
+
+
+    <TextView
+        android:id="@+id/tipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipe 36"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="23dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/regular"
+        android:layout_below="@+id/tvjudul"/>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="180dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="280dp"
+                android:layout_below="@+id/tipe"
+                android:layout_gravity="center"
+                android:src="@drawable/tipe36"
+                android:layout_marginRight="30dp"/>
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center"
+                android:src="@drawable/tipe36a"/>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="100dp"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvdeskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:justificationMode="inter_word"
+                android:text="    Tipe rumah 36 merupakan tipe rumah yang paling banyak dibangun oleh pengembang perumahan dan juga paling banyak diminati. Rumah tipe 36 biasanya dibangun di kavling dengan lebar 6 meter dengan ukuran 6×6 meter persegi. Terdiri dari dua kamar tidur, tipe rumah 36 adalah rumah sederhana yang paling pas untuk pasangan baru menikah ataupun keluarga kecil. \n   Tipe rumah 36 juga adalah pilihan tipe rumah yang kerap dipilih sebagai tipe rumah paling pas untuk orang yang tertarik melakukan investasi dibidang properti. Misalnya rumah minimalis tipe 36. Nggak cuma karena harganya yang tak terlalu tinggi, tapi juga kebutuhan akan tipe rumah 36 yang cukup tinggi sehingga akan lebih mudah untuk dijual kembali di kemudian hari."
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnlanjut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="720dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/btn_bg"
+        android:padding="5dp"
+        android:paddingLeft="20dp"
+        android:paddingEnd="20dp"
+        android:text="Detail Harga" />
+
+</RelativeLayout>

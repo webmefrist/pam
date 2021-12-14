@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tipe.Tipe_21Activity"
+    android:background="#DDE2E8"
+    android:orientation="vertical">
+<!--    #DDE2E8-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="15dp">
+
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/ic_back1"/>
+
+        <Button
+            android:id="@+id/btninfo"
+            android:layout_marginLeft="268dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/ic_info"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvjudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Design"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="23dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/regular"/>
+
+
+    <TextView
+        android:id="@+id/tipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipe 21/24"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="23dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/regular"
+        android:layout_below="@+id/tvjudul"/>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="180dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="280dp"
+        android:layout_below="@+id/tipe"
+        android:layout_gravity="center"
+        android:src="@drawable/tipe23"
+        android:layout_marginRight="30dp"/>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tipe23a"/>
+
+
+    </LinearLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="100dp"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvdeskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:justificationMode="inter_word"
+                android:text="      Memiliki luas bangunan 21 hingga 24 meter persegi, tipe rumah ini merupakan tipe rumah paling kecil yang umumnya dibangun oleh pengembang perumahan.Tipe rumah 21 atau 24 umumnya dibangun di kavling dengan lebar 3 atau 4 meter dengan ukuran 3×7 atau 4×6 meter. \n      Tipe rumah ini tergolong rumah sederhana dan hanya terdiri dari satu kamar tidur dan terkadang bahkan memiliki dapur yang berada terpisah pada bagian halaman belakang. Tipe rumah ini juga kerap menjadi pilihan investasi dengan menjadikannya rumah sewa, karena ukuran dan harga yang murah tentu pilihan menyewa tipe rumah satu ini lebih banyak dipilih."
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnlanjut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="720dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/btn_bg"
+        android:padding="5dp"
+        android:paddingLeft="20dp"
+        android:paddingEnd="20dp"
+        android:text="Detail Harga" />
+
+</RelativeLayout>

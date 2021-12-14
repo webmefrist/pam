@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#53BEDD"
+    tools:context=".info.InfoActivity">
+
+        <TextView
+        android:id="@+id/tvform1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/garis"
+        android:backgroundTint="@color/white"/>
+
+    <TextView
+        android:id="@+id/tvback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_back1"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:padding="13dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/regular" />
+
+
+    <TextView
+        android:id="@+id/tvinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:padding="13dp"
+        android:text="Informasi"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/regular" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/tvform2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/garis"
+        android:backgroundTint="@color/white"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/tvisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvform1"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="23dp"
+            android:fontFamily="@font/regular"
+            android:justificationMode="inter_word"
+            android:text="@string/selamat_datang"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+    </ScrollView>
+
+</RelativeLayout>

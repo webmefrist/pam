@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDE2E8"
+    android:orientation="vertical"
+    tools:context=".Tipe.Tipe_45Activity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="15dp">
+
+
+            <Button
+                android:id="@+id/btnback"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/ic_back1"/>
+
+            <Button
+                android:id="@+id/btninfo"
+                android:layout_marginLeft="268dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ic_info"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvjudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Design"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="23dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/regular"/>
+
+
+    <TextView
+        android:id="@+id/tipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvjudul"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:text="Tipe 45"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="180dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp">
+
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="280dp"
+                    android:layout_below="@+id/tipe"
+                    android:layout_gravity="center"
+                    android:src="@drawable/tipe45"
+                    android:layout_marginRight="30dp"/>
+
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="280dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/tipe45a"/>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="100dp"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvdeskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/regular"
+                    android:justificationMode="inter_word"
+                    android:text="   Untuk kamu yang memiliki keluarga kecil namun ingin memiliki rumah yang sedikit leluasa, tipe rumah 45 bisa jadi alternatif pengganti tipe rumah 36. Pilihan tipe rumah 45 biasanya lebih digemari masyarakat menengah karena memiliki spesifikasi luas yang lebih baik daripada tipe rumah 36 meskipun sama-sama memiliki 2 kamar tidur. n\   Berdiri sama di kavling dengan lebar 6 meter, dimensi dari desain rumah tipe 45 biasanya memiliki ukuran 6×7.5 meter persegi. Jika dilihat dari segi luas tapak pun, tipe rumah 45 umumnya memiliki halaman yang lebih lapang daripada tipe rumah 36. Dibanding tipe rumah 36 yang bisa dijadikan pilihan investasi, tipe rumah satu ini lebih cocok untuk dijadikan pilihan untuk hunian bersama keluarga"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnlanjut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="720dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/btn_bg"
+            android:padding="5dp"
+            android:paddingLeft="20dp"
+            android:paddingEnd="20dp"
+            android:text="Detail Harga" />
+
+    </RelativeLayout>
